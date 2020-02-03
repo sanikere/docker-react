@@ -1,0 +1,206 @@
+npm run start	:	starts up a development server. For development use only
+npm run test	:	Runs tests associated with the project
+npm run build	:	Build a production version of the application
+
+
+
+
+    1  ping 8.8.8.8
+    2  ping google.com
+    3  sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+    4  sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+    5  sudo yum install docker-ce docker-ce-cli containerd.io
+    6  yum list docker-ce --showduplicates | sort -r
+    7  yum list docker-ce --showduplicates | sort -r | more
+    8  yum list docker-ce-cli --showduplicates | sort -r | more
+    9  yum list docker-ce --showduplicates | sort -r | more
+   10  yum list docker-ce-cli --showduplicates | sort -r | more
+   11  sudo yum install docker-ce-19.03.5 docker-ce-cli-19.03.5 containerd.io
+   12  sudo systemctl start docker
+   13  sudo systemctl status docker
+   14  sudo systemctl status -l docker
+   15  sudo docker run hello-world
+   16  sudo groupadd docker
+   17  sudo usermod -aG docker $USER
+   18  more /etc/passwd
+   19  id
+   20  echo $USER
+   21  logoff
+   22  exit
+   23  id
+   24  docker run hello-world
+   25  pwd
+   26  ls -ltra
+   27  pwd
+   28  cd ..
+   29  ll
+   30  cd
+   31  sudo systemctl enable docker
+   32  docker version
+   33  man docker
+   34  clear
+   35  exit
+   36  node -v
+   37  clear
+   38  cd
+   39  pwd
+   40  cd /
+   41  ll
+   42  find - name Downloads
+   43  sudo find - name
+   44  sudo find - name / | grep -i download
+   45  cd
+   46  pwd
+   47  ll
+   48  cd Downloads/
+   49  ll
+   50  ls -ltr
+   51  date
+   52  sudo find - name / | grep -i node*.gz
+   53  sudo find / -name  | grep -i node*.gz
+   54  sudo find -name / | grep -i node*.gz
+   55  sudo find - name / | grep -i node*.gz
+   56  ll
+   57  file node-v13.6.0-linux-x64.tar.xz 
+   58  pwd
+   59  ll
+   60  gunzip -x node-v13.6.0-linux-x64.tar.xz
+   61  gunzip node-v13.6.0-linux-x64.tar.xz
+   62  curl -sL https://rpm.nodesource.com/setup_13.x | sudo bash -
+   63  tr xf node-v13.6.0-linux-x64.tar.xz 
+   64  ll
+   65  man tr
+   66  tar xf node-v13.6.0-linux-x64.tar.xz 
+   67  ll
+   68  cd node-v13.6.0-linux-x64/
+   69  ll
+   70  cd bin
+   71  ll
+   72  cd
+   73  which node
+   74  pwd
+   75  cd bin
+   76  ll
+   77  pwd
+   78  mkdir bin
+   79  chown 755 bin
+   80  chown -R 755 bin
+   81  ll
+   82  cd -
+   83  ll
+   84  pwd
+   85  ll
+   86  pwd
+   87  cd ../
+   88  ll
+   89  pwd
+   90  cd ..
+   91  ll
+   92  mv node-v13.6.0-linux-x64 /home/sanikere/bin/
+   93  cd ../bin
+   94  ll
+   95  cd node-v13.6.0-linux-x64/
+   96  ll
+   97  which node
+   98  cd
+   99  ls -ltr
+  100  ls -ltra
+  101  vi .node-v13.6.0-linux-x64.tar.xz
+  102  ls -ltr
+  103  pwd
+  104  ls -ltra | more
+  105  vi .bashrc
+  106  vi .bash_profile 
+  107  pwd
+  108  cd bin/node-v13.6.0-linux-x64/
+  109  ll
+  110  cd bin
+  111  pwd
+  112  cd
+  113  vi .bash_profile 
+  114  exit
+  115  echo $PATH
+  116  echo #SHELL
+  117  ls -lr
+  118  ls -ltra
+  119  vi .ssh 
+  120  vi .bash_profile 
+  121  echo $PATH
+  122  which node
+  123  ls -ltra
+  124  vi .*
+  125  vi .bash_profile 
+  126  . ~/.bash_profile 
+  127  ls -ltra
+  128  echo $PATH
+  129  which node
+  130  exit
+  131  which $PATH
+  132  echo $PATH
+  133  ls -ltra
+  134  vi .bashrc
+  135  more /etc/bashrc
+  136  cat /etc/bashrc | grep -i PATH
+  137  ls -ltra | more
+  138  vi .bashrc .bash_logout .esd_auth .bash_profile 
+  139  exit
+  140  echo $PATH
+  141  vi .bash_profile 
+  142  ll
+  143  ls -ltra | more
+  144  ls -ltra .*
+  145  ls -ltra .b*
+  146  vi .bash_profile 
+  147  . ~./.bash_profile
+  148  . ~/.bash_profile 
+  149  echo $SHELL
+  150  exit
+  151  echo $SHELL
+  152  echo $PATH
+  153  which node
+  154  vi .bash_profile 
+  155  vi .bashrc 
+  156  exit
+  157  node -v
+  158  pwd
+  159  ll
+  160  npm install -g create-react-app
+  161  ls
+  162  create-react-app frontend
+  163  pwd
+  164  ll
+  165  cd frontend/
+  166  ll
+  167  npm run test
+  168  npm run build
+  169  ls
+  170  npm start start
+  171  ls
+  172  cd ..
+  173  pwd
+  174  ll
+  175  pwd
+  176  node -v
+  177  npm install -g create-react-app
+  178  create-react-app frontend
+  179  pwd
+  180  cd frontend/
+  181  ll
+  182  pwd
+  183  ll
+  184  cd src/
+  185  vi App.js 
+  186  pwd
+  187  c d..
+  188  cd ..
+  189  ll
+  190  vi Dockerfile.dev 
+  191  pwd
+  192  clea
+  193  clear
+  194  docker build -f Dockerfile.dev .
+  195  docker run b1d3d9646f7b
+  196  docker run -it b1d3d9646f7b npm run test
+  197  pwd
+  198  history 
+  199  history >> MyHelp.txt 
